@@ -1,2 +1,2 @@
 # Weather App
- Simple app to obtain local weather
+ - Simple app to obtain local weather
