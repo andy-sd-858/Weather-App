@@ -206,7 +206,7 @@ function searchCity(cityName){
      uvIndexValue = response.value;
      displayCurrentWeather()
       
-     var fiveDayQueryUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&appid=" + APIKey + "&cnt=5";
+     var fiveDayQueryUrl = "api.openweathermap.org/data/2.5/forecast?" + "lat=" + latitude + "&lon=" + longitude + "&appid=" + APIKey;
      $.ajax({
        url: fiveDayQueryUrl,
        method: "GET"
